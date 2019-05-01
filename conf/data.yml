@@ -1,0 +1,39 @@
+Assessment(a1):
+  date: 01/01/2019
+  weight: 75
+  chest: 30
+  thigh: 10
+  upperArm: 16
+  waist: 32
+  hips: 38
+
+Assessment(a2):
+  date: 15/01/2019
+  weight: 73
+  chest: 28
+  thigh: 10
+  upperArm: 18
+  waist: 30
+  hips: 36
+
+Member(m1):
+  name: Jane Doe
+  gender: female
+  email: janed@hotmail.com
+  password: secret
+  address: 123 Main Street
+  startingWeight: 80
+  targetWeight: 60
+  height: 1.77
+
+Member(m2):
+  name: John Doe
+  gender: male
+  email: johnd@hotmail.com
+  password: secret
+  address: 123 Main Street
+  startingWeight: 100
+  targetWeight: 80
+  height: 1.80
+  assessmentList:
+    - a1
